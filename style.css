@@ -1,0 +1,30 @@
+#board {
+    border: 1px solid black;
+    background: url(background.jpeg);
+    background-size: cover;
+    height: 350px;
+    width: 650px;
+}
+
+.character {
+    background: url('guest.avif');
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.thief {
+    background: url('download (1).png');
+    background-size: cover;
+}
